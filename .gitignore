@@ -1,0 +1,28 @@
+# Node
+bridge-node/node_modules/
+bridge-node/.env
+bridge-node/.env.*
+
+# WhatsApp session data
+bridge-node/session/
+bridge-node/.wwebjs_auth/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# PHP (por si se agrega composer más adelante)
+app-php/vendor/
+composer.lock
+
+# Cache / misc
+dist/
+.tmp/
